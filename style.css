@@ -1,0 +1,55 @@
+/* universal seletor */
+*{
+    background-color: blueviolet;
+}
+/* id selector is use # */
+#use{
+    color: aqua;
+}
+
+/* class selector is use dot (.)*/
+.use{
+    color: bisque;
+    background-color: black;
+}
+
+/* tag salector is use just tag name */
+
+h3{
+    color:darkkhaki;
+}
+
+/* descendent selector is use ( ) during two tag name  */
+div p{
+    color: aqua;
+}
+
+/* child selector is > during two tag name */
+span>p{
+    color: chartreuse;
+}
+
+.box{
+    font-size: 20px;
+    background-color: brown;
+    width: 200px;
+    padding: 10px 40px 60px 0px ;
+    margin: 50px 60px 30px 20px;
+    border: 5px black dotted;
+    text-align: center;
+    /* float:left; */
+    /* clear:both; */
+    display: inline-block;
+}
+.box2{
+    font-size: 20px;
+    background-color: brown;
+    width: 200px;
+    padding: 10px 40px 60px 0px ;
+    margin: 50px 60px 30px 20px;
+    border: 5px black dotted;
+    text-align: center;
+    /* float:left; */
+    /* clear: both; */
+    display: inline-block;
+}
